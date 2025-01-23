@@ -4,7 +4,7 @@ ___
 
 This website belongs to XRG2014 (aka. SnurfTech).
 
-And just so you know, XRG2014 and SnurfTech are the same person.
+And if you still don't know from all of the "aka. SnurfTech", XRG2014 and SnurfTech are the same person.
 
 It also shows my public Github repositories.
 
