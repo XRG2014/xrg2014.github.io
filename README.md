@@ -1,4 +1,4 @@
-<h1 align="center"><b> Welcome to The XRG2014 Website &#128187; </b></h1>
+<h1 align="center"><b> Welcome to The XRG2014 (aka. Snurftech) Website &#128187; </b></h1>
 
 ___
 
