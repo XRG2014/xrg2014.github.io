@@ -2,7 +2,7 @@
 
 ___
 
-This website is XRG2014's (me) website.
+This website belongs to XRG2014 (aka. SnurfTech).
 
 It also shows my public repositories.
 
