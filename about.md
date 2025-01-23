@@ -4,14 +4,8 @@ ___
 
 This website belongs to XRG2014 (aka. SnurfTech).
 
-It also shows my public repositories.
+And just so you know, XRG2014 and SnurfTech are the same person.
 
-If you would like to view <a href="https://github.com/XRG2014/">My Github profile</a> for more information on me, then you can click on the button above (XRG2014 on Github), or on the link from earlier.
+It also shows my public Github repositories.
 
-Feel free to use this website/repository for any kind of use permited by Github or law. Eg:
-
-  1. Fork and use this repository as a template
-  
-  2. Fork for private use
-  
-  3. Share this repository
+If you would like to view <a href="https://github.com/XRG2014/">my Github profile</a> for more information on me, then you can click on the button above (XRG2014 on Github), or on the link from earlier.
