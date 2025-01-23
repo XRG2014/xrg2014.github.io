@@ -1,4 +1,4 @@
-<h1 align="center"><b> About & Legal </b></h1>
+<h1 align="center"><b> About </b></h1>
 
 ___
 
