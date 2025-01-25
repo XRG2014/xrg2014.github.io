@@ -23,6 +23,12 @@ layout: default
     // URL of the Markdown file
     const markdownUrl = 'https://raw.githubusercontent.com/XRG2014/XRG2014/refs/heads/main/README.md';
 
+    // Function to replace bullet points in Markdown with custom symbols
+    function replaceBulletPoints(markdown) {
+      // Replace `- ` or `* ` with a custom symbol, e.g., "→"
+      return markdown.replace(/(^|\n)[*-]\s/g, '$1→ ');
+    }
+
     // Fetch the Markdown file from the URL
     fetch(markdownUrl)
       .then(response => {
