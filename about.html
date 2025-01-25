@@ -38,8 +38,35 @@ layout: default
   </style>
 </head>
 <body>
-  <h1 align="center"><b> About Me </b></h1>
-  <div id="output">Loading...</div>
+  <h1 align="center"><b> About this website </b></h1>
+  <p>This website is made using <a href="https://porkbun.com" target="_blank">Porkbun</a>, <a href="https://github.io" target="_blank">Github Pages</a> with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, and more/soon to be more.</p>
+  <p>This website hosts the <a href="https://xrg2014.github.io/triforce-freaks" target="_blank">Triforce Freaks website</a>.</p>
+  <p id="status">Checking link ...</p>
+    <script>
+    // URL of the GitHub Pages link to check
+    const githubUrl = 'https://xrg2014.github.io/games/';
+
+    // Function to check the URL status
+    function checkLinkStatus(url) {
+      fetch(url)
+        .then(response => {
+          // If the response is not ok, it means there's an error
+          if (!response.ok) {
+            throw new Error(`Error: ${response.statusText}`);
+          }
+          // If the response is ok, display a success message
+          document.getElementById('status').textContent = 'This website also has games!';
+        })
+        .catch(error => {
+          document.getElementById('status').remove();
+        });
+    }
+
+    // Check the link status
+    checkLinkStatus(githubUrl);
+  </script>
+  <h1 align="center"><b> About me </b></h1>
+  <div id="output">Loading ...</div>
 
   <script>
     // URL of the Markdown file
