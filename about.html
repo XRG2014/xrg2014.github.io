@@ -12,18 +12,12 @@ layout: default
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
       line-height: 1.6;
     }
-    #output {
-      border: 1px solid #ccc;
-      padding: 20px;
-      background: #f9f9f9;
-    }
+    /* Ensure proper styling for lists */
     ul, ol {
       margin-left: 20px;
       padding-left: 20px;
-      list-style: initial;
     }
     ul li {
       list-style-type: disc; /* Default bullet style */
@@ -44,22 +38,12 @@ layout: default
   </style>
 </head>
 <body>
-  <h1 align="center"> About Me </h1>
+  <h1 align="center"><b> About Me </b></h1>
   <div id="output">Loading...</div>
 
   <script>
     // URL of the Markdown file
     const markdownUrl = 'https://raw.githubusercontent.com/XRG2014/XRG2014/refs/heads/main/README.md';
-
-    // Set custom renderer for list items to avoid ">>"
-    const renderer = new marked.Renderer();
-    renderer.listitem = function(text) {
-      return `<li style="list-style-type: disc;">${text}</li>`;
-    };
-
-    marked.setOptions({
-      renderer: renderer
-    });
 
     // Fetch the Markdown file from the URL
     fetch(markdownUrl)
