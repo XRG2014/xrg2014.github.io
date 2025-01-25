@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Viewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #output {
+      border: 1px solid #ccc;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Markdown Viewer</h1>
+  <div id="output">Loading...</div>
+
+  <script>
+    // URL of the Markdown file
+    const markdownUrl = 'https://raw.githubusercontent.com/markedjs/marked/main/README.md';
+
+    // Fetch the Markdown file from the URL
+    fetch(markdownUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Failed to fetch Markdown file: ${response.statusText}`);
+        }
+        return response.text();
+      })
+      .then(markdown => {
+        // Convert Markdown to HTML using Marked.js
+        const htmlContent = marked.parse(markdown);
+
+        // Inject the converted HTML into the output div
+        document.getElementById('output').innerHTML = htmlContent;
+      })
+      .catch(error => {
+        // Display an error message if something goes wrong
+        document.getElementById('output').textContent = `Error: ${error.message}`;
+      });
+  </script>
+</body>
+</html>
