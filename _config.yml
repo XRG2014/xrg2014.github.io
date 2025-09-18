@@ -1,6 +1,6 @@
 # site settings
 title: SnurfTech
-subtitle: "I'm awesome."
+subtitle: "I'm awesome!"
 email: youremailaddress@gmail.com
 description: "I like to code and do other stuff too."
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
