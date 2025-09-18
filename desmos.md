@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Desmos Graphing Calculator Art
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
