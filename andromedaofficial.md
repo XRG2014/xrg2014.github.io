@@ -24,10 +24,12 @@ nav-menu: true
 
 <table>
   <tr>
+	<th>Icon</th>
     <th>Website</th>
     <th>Link</th>
   </tr>
   <tr>
+	<td><span class="fab fa-github"></span></td>
     <td>Github</td>
     <td><a href="https://github.com/andromedaofficial/">https://github.com/andromedaofficial/</a></td>
   </tr>
