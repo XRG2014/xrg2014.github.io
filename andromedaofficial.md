@@ -20,7 +20,9 @@ nav-menu: true
 <p>"Well what is Andromeda?" -- I imagine that's what you're thinking. Well, for the sake of this explanation, lets call it a "company". This "company" is a tech company. It has an operating system. This operating system is called "Nebulatic". Get it? (Andromeda, Nebulatic?) Andromeda also won't have only an operating system. Also stuff like tools and utilities. (Calculator, etc.)</p>
 
 <h2>Links</h2>
-<a href="https://github.com/andromedaofficial/"><span class="fab fa-github fa-2x"></span> Github</a>
+|Website|Link|
+|:---|:---|
+|Github|[https://github.com/andromedaofficial/](https://github.com/andromedaofficial/)|
 
 </div>
 </section>
