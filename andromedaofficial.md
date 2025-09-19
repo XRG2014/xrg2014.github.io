@@ -22,16 +22,16 @@ nav-menu: true
 
 <h2>Links</h2>
 
-<table>
+<table style="border-collapse: collapse; border: 1px solid black;">
   <tr>
-	<th rowspan="1">Icon</th>
-    <th rowspan="1">Website</th>
-    <th rowspan="1">Link</th>
+	<th style="border: 1px solid black;">Icon</th>
+    <th style="border: 1px solid black;">Website</th>
+    <th style="border: 1px solid black;">Link</th>
   </tr>
   <tr>
-	<td><span class="fab fa-github"></span></td>
-    <td>Github</td>
-    <td><a href="https://github.com/andromedaofficial/">https://github.com/andromedaofficial/</a></td>
+	<td style="border: 1px solid black;"><span class="fab fa-github"></span></td>
+    <td style="border: 1px solid black;">Github</td>
+    <td style="border: 1px solid black;"><a href="https://github.com/andromedaofficial/">https://github.com/andromedaofficial/</a></td>
   </tr>
 </table>
 
