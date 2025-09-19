@@ -17,6 +17,6 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-{% include desmos/orange_cat.html %}
+{% include desmos/view_art.html %}
 </div>
 </section>
