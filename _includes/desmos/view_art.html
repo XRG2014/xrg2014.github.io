@@ -1,0 +1,16 @@
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  .grid > div {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+</style>
+
+<div class="grid">
+  <div>{% include desmos/art/orange_cat.html %}</div>
+</div>
