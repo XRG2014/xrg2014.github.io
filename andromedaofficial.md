@@ -24,9 +24,9 @@ nav-menu: true
 
 <table>
   <tr>
-	<th>Icon</th>
-    <th>Website</th>
-    <th>Link</th>
+	<th rowspan="1">Icon</th>
+    <th rowspan="1">Website</th>
+    <th rowspan="1">Link</th>
   </tr>
   <tr>
 	<td><span class="fab fa-github"></span></td>
