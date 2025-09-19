@@ -17,6 +17,7 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
+
 <table class="table table-element">
   <tr>
     <th class="table-element">Project</th>
