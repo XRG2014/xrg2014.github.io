@@ -17,9 +17,6 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-{% assign files = site.static_files | where: "path", "/_includes/desmos" %}
-{% for file in files %}
-  {% include html_snippets/{{ file.name }} %}
-{% endfor %}
+{% include desmos/orange_cat.html %}
 </div>
 </section>
