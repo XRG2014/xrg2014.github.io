@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Desmos Art
-description: My Desmos graphing calculator art
+description: My Desmos calculator art
 image: assets/images/desmos.jpg
 nav-menu: true
 ---
