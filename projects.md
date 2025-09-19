@@ -26,12 +26,12 @@ nav-menu: true
   </tr>
   <tr>
 	<td class="table-element">Yes for a-Shell</td>
-    <td class="table-element">Github repository</td>
+    <td class="table-element">Github repository (Archived)</td>
     <td class="table-element"><a href="https://github.com/XRG2014/yes-a-shell/">https://github.com/XRG2014/yes-a-shell/</a></td>
   </tr>
   <tr>
     <td class="table-element">Node.js for a-Shell</td>
-    <td class="table-element">Github repository</td>
+    <td class="table-element">Github repository (Archived)</td>
     <td class="table-element"><a href="https://github.com/XRG2014/node.js-a-shell/">https://github.com/XRG2014/node.js-a-shell/</a></td>
   </tr>
 </table>
