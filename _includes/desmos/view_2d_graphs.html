@@ -2,15 +2,16 @@
   .grid {
     display: grid;
     /* each column is at least 150px, grows to fill space */
-    grid-template-columns: 500px;
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
     gap: 1rem; /* space between items */
+    justify-items: center;
   }
   .grid > div {
     background: #000000;
     border: 1px solid #ccc;
     padding: 1rem;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 8px;
   }
 </style>
 
